@@ -1,0 +1,61 @@
+/* Navbar */
+.home {
+    margin-top: 3rem;
+}
+
+/* CSS */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: var(--pink);
+    }
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* CSS */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-right-color: transparent;
+    }
+
+    50% {
+        border-right-color: var(--pink);
+        /* Color of the cursor */
+    }
+}
+
+.cursor {
+    display: inline-block;
+    border-right: 4px solid var(--blue);
+    /* Width and color of the cursor */
+    margin-right: 2px;
+    /* Adjust as needed to control cursor spacing */
+    height: 1em;
+    /* Adjust as needed to control cursor height */
+    animation: blink-caret 1s step-end infinite;
+    /* Blink animation */
+}
