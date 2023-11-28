@@ -54,7 +54,7 @@ function App() {
             </ul>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#home" onClick={() => handleNavLinkClick('home')}>Contact Me</a>
+            <a className="nav-link" href="#contact" onClick={() => handleNavLinkClick('home')}>Contact Me</a>
           </li>
         </ul>
       </div>
